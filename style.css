@@ -52,7 +52,6 @@ a {
     z-index: 10;
 }
 
-
 :root {
     --color-green: #8FE20E;
     --color-black: #202020;
@@ -108,7 +107,7 @@ a {
 }
 
 .img-user {
-    width: 50px;
+    width: 30px;
     height: 50px;
     border-radius: 8px;
     border: 2px solid var(--color-green);
@@ -150,191 +149,159 @@ a {
     justify-content: center;
 }
 
-.hard-skills {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-    gap: 0.4rem;
-}
-
 .destaque {
-    color: var(--color-green);
+    color: #fafafab4;
     font-weight: bold;
     font-size: 1rem;
-    padding-bottom: 0.3rem;
+    padding-bottom: 3rem;
 }
 
-.skills-icons {
+.network {
     width: 100%;
+    height: 16%;
+    background-color: var(--color-black);
+    border-radius: 12px;
+    padding: 1rem;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: center;
+    gap: 1.5rem; 
 }
 
-.skills-icons i {
+.network i {
     color: #fff;
-    font-size: 1.4rem;
+    font-size: 2.8rem;
     transition: color 0.3s;
 }
 
-.skills-icons i:hover {
+.network i:hover {
     cursor: pointer;
 }
 
-/* Cores específicas para cada ícone */
-.skills-icons .fa-html5:hover {
+.network .github:hover i {
+    color: #000;
+    transition: color 0.3s;
+}
+
+.network .linkedin:hover i {
+    color: #0077B5;
+    transition: color 0.3s;
+}
+
+.network .discord:hover i {
+    color: #4752C4;
+    transition: color 0.3s;
+}
+
+
+.fa-html5:hover {
     color: #e34f26;
 }
 
-.skills-icons .fa-css3-alt:hover {
+.fa-css3:hover {
     color: #1572b6;
 }
 
-.skills-icons .fa-js:hover {
+.fa-js:hover {
     color: #f7df1e;
 }
 
-.skills-icons .fa-bootstrap:hover {
+.fa-bootstrap:hover {
     color: #7952b3;
 }
 
-.skills-icons .fa-react:hover {
-    color: #61dafb;
+.fa-angular:hover {
+    color: #DD0031;
 }
 
-.skills-icons .fa-node:hover {
+.fa-node:hover {
     color: #339933;
 }
 
-.skills-icons .fa-php:hover {
-    color: #777bb4;
+.fa-figma:hover {
+    background-image: linear-gradient(to right, #F25425, #FF7667, #A55EFF, #21BEFE, #12D187); 
+    -webkit-background-clip: text;
+    color: transparent;;
 }
 
-.skills-icons .fa-java:hover {
-    color: #007396;
-}
-
-.skills-icons .fa-github:hover {
-    color: #181717;
-}
-
-.skills-icons .fa-wix:hover {
-    color: #ff5722;
-}
-
-.skills-icons .fa-wordpress:hover {
+.fa-wordpress:hover {
     color: #21759b;
 }
 
+.fa-sass:hover {
+    color: #CF6C9C;
+}
+
+.fa-python:hover {
+    background-image: linear-gradient(to bottom, #3776aa, #fcce01); 
+    -webkit-background-clip: text; 
+    color: transparent; 
+}
+
+.fa-gitlab:hover {
+    background-image: linear-gradient(to bottom, #E2492F, #FC7016, #FFA122); 
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.fa-git:hover {
+    color: #F05539;
+}
+
+.fa-github:hover {
+    color: #181717;
+}
+
+.fa-docker:hover {
+    color: #119FED;
+}
+
+.fa-aws:hover {
+    color: #FF9C08;
+}
+
+.h1-destaque {
+    text-align: center;
+}
+
 /****************** WIDGET 3 */
-.widget3 {
+.widget3, .widget4, .widget5  {
+    background-color: var(--color-black);
+    border-radius: 12px;
     height: 100%;
     height: 32%;
     border-radius: 12px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 0.8rem;
-}
-
-.tread {
-    border-radius: 12px;
-    background-color: var(--color-black);
-    width: 50%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 1rem;
-    gap: 0.8rem;
-}
-
-.text-tread {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
     justify-content: center;
 }
 
-.text-tread h1 {
-    padding-bottom: 0.3rem;
-    color: var(--color-white);
-    font-weight: bold;
-    font-size: 1rem;
-}
 
-.text-tread span {
-    color: #fafafab4;
-    font-size: 0.8rem;
-}
-
-.img-tread {
-    width: 100%;
-    height: 100px;
-    background-image: url(/img/tread-skateboard.jpg);
-    background-position: center;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    border-radius: 8px;
-}
-
-.img-tread img {
-    width: 50%;
-}
-
-.redes-sociais {
+.technologies {
     border-radius: 12px;
-    width: 50%;
-    height: 185px;
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    gap: 15px;
+    width: 70%; 
+    gap: 15px; 
 }
 
-.redes-sociais a {
-    background-color: var(--color-black);
+.technologies a {
     border-radius: 10px;
-    width: 45%;
-    height: 45%;
+    width: 18%; 
+    height: 80px; 
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 }
 
-.redes-sociais i {
-    font-size: 2.8rem;
+.technologies i {
+    font-size: 2rem;
     color: var(--color-white);
-}
-
-.redes-sociais .tiktok:hover i {
-    color: #000;
-    transition: color 0.3s;
-}
-
-.redes-sociais .instagram:hover i {
-    color: #E1306C;
-    transition: color 0.3s;
-}
-
-.redes-sociais .github:hover i {
-    color: #000;
-    transition: color 0.3s;
-}
-
-.redes-sociais .linkedin:hover i {
-    color: #0077B5;
-    transition: color 0.3s;
 }
 
 /****************** WIDGET 4 */
-.widget4 {
+.widget6 {
     width: 100%;
     height: 16%;
     background-color: var(--color-green);
@@ -400,7 +367,7 @@ a {
 }
 
 /****************** WIDGET 6 */
-.widget6 {
+.widget7 {
     width: 100%;
     height: 32%;
     border-radius: 12px;
@@ -411,7 +378,7 @@ a {
     gap: 1rem;
 }
 
-.widget6 span {
+.widget7 span {
     color: #fafafab4;
     font-size: 1rem;
     padding-top: 1rem;
@@ -420,18 +387,16 @@ a {
 /* ANIMAÇÕES */
 .widget1,
 .widget2,
-.tread,
 .box-social,
-.widget4,
+.widget6,
 .widget5 {
     transition: transform 0.3s ease;
 }
 
 .widget1:hover,
 .widget2:hover,
-.tread:hover,
 .box-social:hover,
-.widget4:hover,
+.widget6:hover,
 .widget5:hover {
     transform: translateY(-5px);
 }

@@ -1,21 +1,19 @@
+# Project Image
+![Project Image](./img/print-tela.png "Link Bio RM Dev 2.0")
 
-# Imagem do Projeto
-![imagem do projeto](./img/rm-dev-link-bio-2.0.png "Link Bio RM Dev 2.0")
+# My Links - Andressa Turchetto│Dev
 
-# Meus Links - Ricardo Moura│Dev
+This is a personal website developed by Andressa Turchetto to centralize important links and highlight skills and projects. The page includes widgets with personal information, technical skills, links to social networks, and more.
 
-Este é um site pessoal desenvolvido por Ricardo Moura para centralizar links importantes e destacar habilidades e projetos. A página inclui widgets com informações pessoais, habilidades técnicas, links para redes sociais, e muito mais.
+## Features
 
-## Características
+- **Custom Loading Screen:** An animated loading screen that shows progress in percentage until the site is completely loaded.
+- **User Profile:** Developer information with photo, name and title.
+- **Technical Skills:** Technology icons that highlight the developer's hard skills.
+- **Links to Social Networks:** Direct links to GitHub, LinkedIn and GitHub.
+- **Portfolio:** Links to personal portfolio website.
 
-- **Loading Screen Customizado:** Uma tela de carregamento animada que mostra o progresso em porcentagem até que o site esteja completamente carregado.
-- **Perfil do Usuário:** Informações do desenvolvedor com foto, nome e título.
-- **Habilidades Técnicas:** Ícones de tecnologias que destacam as hard skills do desenvolvedor.
-- **Links para Redes Sociais:** Links diretos para TikTok, Instagram, GitHub e LinkedIn.
-- **Widget de Marca Pessoal:** Link para a página do Instagram da marca Tread Skateboard.
-- **Portfólio e Freelancer:** Links para o site de portfólio pessoal e um site com recursos para freelancers.
-
-## Tecnologias Utilizadas
+## Technologies 
 
 - HTML5
 - CSS3
@@ -23,7 +21,7 @@ Este é um site pessoal desenvolvido por Ricardo Moura para centralizar links im
 - FontAwesome para ícones
 - Roboto Font do Google Fonts
 
-## Estrutura de Arquivos
+## File Structure
 
 ```plaintext
 /projeto
@@ -38,19 +36,8 @@ Este é um site pessoal desenvolvido por Ricardo Moura para centralizar links im
     |-- tread-skateboard.jpg
 ```
 
-## Como Usar
+## How to Use
 
-1. Clone o repositório em sua máquina local usando `git clone [URL do Repositório]`.
-2. Abra o arquivo `index.html` em um navegador para visualizar o site.
-3. Explore as diferentes seções clicando nos links e ícones disponíveis.
-
-## Contribuições
-
-Contribuições são sempre bem-vindas! Se você tem alguma sugestão para melhorar este projeto, sinta-se à vontade para fazer um fork do repositório e enviar sua pull request.
-
-## Autor
-
-**Ricardo Moura**
-- [Perfil no GitHub](https://github.com/RicardoMouraa)
-- [LinkedIn](https://www.linkedin.com/in/ricardomouradev/)
-- [Instagram](https://www.instagram.com/riicardomoura/)
+1. Clone the repository to your local machine using `git clone [Repository URL]`.
+2. Open the `index.html` file in a browser to view the website.
+3. Explore the different sections by clicking on the available links and icons.
